@@ -1,4 +1,4 @@
-# Install PhysicsVQA Frontend Locally Using npm
+# Install PhysicsVQA Frontend locally Using npm
 
 ## Build and Start
 
