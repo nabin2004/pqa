@@ -1,28 +1,36 @@
-# Install PhysicsVQA Frontend locally Using npm
-# Physics Question Answering (PhysicsVQA)
+# 🚀 PhysicsVQA: The Physics Question Answering Engine
 
-Comprehensive platform for physics question answering — combines a web frontend, a Node.js API backend, and an optional model-serving Python backend (vLLM/VLLM-like). This repository provides tools for running locally (recommended) or with Docker Compose for a quick setup.
+### **A Comprehensive Platform for Physics Question Answering**
 
-Key components:
-- `client/` — frontend (Vite/React) for user interactions.
-- `api/` — backend server (Node.js) that handles requests, routing, and retrieval.
-- `vllm_backend/` — optional Python model server for serving large language models (requires GPU & vLLM-compatible setup).
-- `docker-compose.yml` — compose stack to run the full system in containers.
-- `config/` — utility scripts and operations for deployment and maintenance.
+---
 
-## Features
-- Interactive web UI for asking physics questions and receiving step-by-step answers.
-- Extensible architecture to plug in different model backends (local model server, remote LLM API).
-- Caching and rate-limiting helpers for production readiness.
+## 🎯 Project Overview
 
-## Quick Start (recommended): Docker Compose
-This will build and start all components (frontend, backend, optional model server) with a single command. Docker Desktop is required on Windows.
+PhysicsVQA combines a dynamic **web frontend**, a robust **Node.js API backend**, and an advanced **Python model-serving backend** to deliver accurate, step-by-step physics solutions. It's built for scale and flexibility.
 
-Open a PowerShell terminal and run:
+| Component | Technology | Role |
+| :--- | :--- | :--- |
+| **`client/`** | ⚛️ Vite / React | Interactive Web UI for user queries. |
+| **`api/`** | 🟢 Node.js | Backend server, request handling, routing, and retrieval. |
+| **`vllm_backend/`** | 🐍 Python / vLLM | Optional, high-performance model server (requires GPU). |
+| **`docker-compose.yml`** | 🐳 Docker Compose | Quick setup and unified local development environment. |
+
+### ✨ Key Features
+
+* **Interactive UI:** Ask complex physics questions and receive detailed, step-by-step answers.
+* **Extensible Architecture:** Easily plug in different model backends (local server or remote LLM APIs).
+* **Production Ready:** Includes helpers for caching and rate-limiting.
+
+---
+
+## ⚡ Quick Start (Recommended: Docker Compose)
+
+The fastest way to get the full system running locally! *(Docker Desktop required for Windows.)*
+
+Open your terminal (PowerShell recommended) and run:
 
 ```powershell
 docker-compose up --build
-```
 
 After the services start, open the frontend in your browser at:
 
