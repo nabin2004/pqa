@@ -119,7 +119,7 @@ Adjust to `pnpm` or `yarn` if you use those package managers.
 ### Credits
 This project is part of the **Fuse AI Fellowship** projects.
 - **`NirajKarki`** `https://github.com/nirajkark`
-- **`Kusumm Maharjan`** `https://github.com/avii-001`
+- **`Kusumm Maharjan`** `https://github.com/itskusummm`
 - **`Pariskar Poudel`** `https://github.com/Pariskarpoudel`
 - **`Nabin Oil`** `https://github.com/nabin2004`
 
