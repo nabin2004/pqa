@@ -109,23 +109,22 @@ Adjust to `pnpm` or `yarn` if you use those package managers.
 - Keep changes small and focused and open a pull request describing the change.
 - Run frontend and backend tests locally before submitting a PR.
 
-## Project Structure (short)
+## Project Structure
 - `client/` — frontend app (Vite, React/TS/JS depending on the folder contents)
 - `api/` — Node.js backend and route handlers
 - `vllm_backend/` — optional Python model server
 - `config/` — scripts and utilities for deployment and maintenance
 - `docker-compose.yml` — compose file for local full-stack testing
 
-## Contact & Credits
-This project is part of the Fuse AI Fellowship / community projects. For urgent issues open an issue in this repo and tag contributors.
+### Credits
+This project is part of the **Fuse AI Fellowship** projects.
+- **`NirajKarki`** `https://github.com/nirajkark`
+- **`Kusumm Maharjan`** `https://github.com/avii-001`
+- **`Pariskar Poudel`** `https://github.com/Pariskarpoudel`
+- **`Nabin Oil`** `https://github.com/nabin2004`
 
-## License
-This repository contains a `LICENSE` file. Refer to it for license terms.
 
----
-If you'd like, I can also:
-- add a short quickstart script for a minimal local-only setup,
-- create an example `.env.example` with common variables used by `api` and `client`, or
-- run the project locally and report any runtime errors I encounter.
 
-If you want one of those, tell me which and I'll continue.
+
+
+
