@@ -121,7 +121,7 @@ This project is part of the **Fuse AI Fellowship** projects.
 - **`NirajKarki`** `https://github.com/nirajkark`
 - **`Kusumm Maharjan`** `https://github.com/itskusummm`
 - **`Pariskar Poudel`** `https://github.com/Pariskarpoudel`
-- **`Nabin Oil`** `https://github.com/nabin2004`
+- **`Nabin Oli`** `https://github.com/nabin2004`
 
 
 
